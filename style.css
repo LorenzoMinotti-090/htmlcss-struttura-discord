@@ -1,5 +1,5 @@
 /*reset*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,34 +10,80 @@
     background-color: cornflowerblue;
     width: auto;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
 }
+
 /*main*/
-.section.blue{
-  background-color: blue;
-  padding: 100px;
+.section.blue {
+    background-color: blue;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .section.white {
-  background-color: white;
-  padding: 100px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .section.grey {
-  background-color: lightgrey;
-  padding: 100px;
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.section.lightgrey{
-  background-color: lightgrey;
-  padding: 200px;
+
+
+.section.lightgrey {
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .section.black {
-  background-color: black;
-  padding: 200px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
 }
 
 .box.yellow {
-  background: yellow;
-  width: 500px;
-  height: 20px;
-  margin: auto;
+    background: yellow;
+    width: 800px;
+    height: 20px;
+    margin: auto;
+}
+
+.box.violet {
+    background: violet;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+
+.box.blue {
+    background: blue;
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+
+.box.pink {
+    background: pink;
+    width: 400px;
+    height: 300px;
+    display: flex;
+}
+
+.box.green {
+    background: darkgreen;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+
 }
