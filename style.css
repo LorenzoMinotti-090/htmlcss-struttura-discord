@@ -1,0 +1,36 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+.header {
+    background-color: cornflowerblue;
+    width: auto;
+    margin: 0;
+    padding: 20px;
+}
+/*main*/
+.section.blue{
+  background-color: blue;
+  padding: 100px;
+}
+
+.section.white {
+  background-color: white;
+  padding: 100px;
+}
+.section.grey {
+  background-color: lightgrey;
+  padding: 100px;
+}
+.section.lightgrey{
+  background-color: lightgrey;
+  padding: 200px;
+}
+.section.black {
+  background-color: black;
+  padding: 200px;
+}
