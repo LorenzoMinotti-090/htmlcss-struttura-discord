@@ -7,7 +7,7 @@
 
 /*header*/
 .header {
-    background-color: cornflowerblue;
+    background-color: rgb(174, 203, 228);
     width: auto;
     margin: 0;
     padding: 10px;
@@ -15,10 +15,10 @@
 
 /*main*/
 .section.blue {
-    background-color: blue;
+    background-color: darkblue;
     padding: 10px;
     justify-content: center;
-    align-items: center;
+
 }
 
 .section.white {
@@ -26,7 +26,7 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 
 .section.grey {
@@ -34,7 +34,7 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 
 
@@ -43,47 +43,78 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    min-height: 200px;
 }
 
 .section.black {
     background-color: black;
-    padding: 10px;
+    padding: 20px;
     display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 500px;
 }
 
+
 .box.yellow {
-    background: yellow;
-    width: 800px;
+    background: goldenrod;
+    width: 600px;
     height: 20px;
     margin: auto;
+    border: 1px dashed black;
 }
 
 .box.violet {
     background: violet;
-    width: 600px;
-    height: 300px;
+    width: 300px;
+    height: 150px;
     margin: auto;
+    border: 1px dashed black;
 }
 
 .box.blue {
     background: blue;
-    width: 600px;
-    height: 300px;
+    width: 300px;
+    height: 150px;
     display: flex;
+    border: 1px dashed black;
 }
 
 .box.pink {
     background: pink;
-    width: 400px;
-    height: 300px;
+    width: 200px;
+    height: 150px;
     display: flex;
+    border: 1px dashed black;
 }
 
 .box.green {
     background: darkgreen;
-    width: 800px;
-    height: 600px;
+    width: 450px;
+    height: 300px;
     margin: auto;
+    border: 1px dashed black;
+}
 
+.box.red {
+    background: red;
+    width: 200px;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.box.cyan {
+    background-color: darkcyan;
+    width: 300px;
+    height: 300px;
+    border: 1px dashed black;
+
+}
+
+.foot {
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 20px;
+    margin: auto;
+    border: 1px dashed black;
 }
